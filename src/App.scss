@@ -1,0 +1,49 @@
+.login {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	.login-main {
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		box-sizing: border-box;
+		flex-direction: column;
+		row-gap: 50px;
+		.login-page-logo {
+			margin-left: 30px;
+		}
+		.login-main-inner {
+			padding: 60px;
+			box-sizing: border-box;
+			width: 100%;
+			margin: 0 auto;
+			max-width: 600px;
+		}
+		.login-form-top {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: flex-end;
+			margin-bottom: 30px;
+			> * {
+				font-weight: bold;
+				margin: 0;
+			}
+		}
+	}
+	.login-banner {
+		background-color: red;
+		background-image: url("../public/images/sign-up-banner.jpg");
+		background-size: cover;
+		filter: grayscale(100%);
+		width: 50%;
+	}
+}
+.custom-input {
+	padding: 14px;
+	padding-left: 25px;
+	border-radius: 30px;
+}
+custom-login-form {
+}
