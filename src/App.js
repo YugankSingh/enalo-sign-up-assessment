@@ -80,7 +80,9 @@ function App() {
 								<Form.Item name="remember_me">
 									<Flex horizontal justify={"space-between"} align={"center"}>
 										<Checkbox>Remember Me</Checkbox>
-										<a href="/forgot-password">Forgot Password?</a>
+										<a href="/forgot-password" style={{ color: "#696969" }}>
+											Forgot Password?
+										</a>
 									</Flex>
 								</Form.Item>
 
