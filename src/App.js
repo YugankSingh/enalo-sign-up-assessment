@@ -1,5 +1,5 @@
 import "./App.scss"
-import { Button, Form, Input, Checkbox, ConfigProvider } from "antd"
+import { Button, Form, Input, Checkbox, ConfigProvider, Flex } from "antd"
 
 function App() {
 	const onFinish = () => {
@@ -78,7 +78,10 @@ function App() {
 								</Form.Item>
 
 								<Form.Item name="remember_me">
-									<Checkbox>Remember Me</Checkbox>
+									<Flex horizontal justify={"space-between"} align={"center"}>
+										<Checkbox>Remember Me</Checkbox>
+										<a href="/forgot-password">Forgot Password?</a>
+									</Flex>
 								</Form.Item>
 
 								<Form.Item>
